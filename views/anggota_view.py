@@ -43,7 +43,7 @@ class AnggotaView(ctk.CTk):
         self.frame_kanan = ctk.CTkFrame(self)
         self.frame_kanan.grid(row=0, column=1, padx=10, pady=10, sticky="nsew")
 
-        ctk.CTkLabel(self.frame_kanan, text="Daftar Anggota Perpustakaan Shadiq Muhammad_F5212520083", font=("Arial", 16, "bold")).pack(pady=15)
+        ctk.CTkLabel(self.frame_kanan, text="Daftar Anggota Perpustakaan Shadiq Muhammad_F5212520083", font=("Times New Roman", 16, "bold")).pack(pady=15)
 
         kolom = ("id_anggota", "nama_anggota", "alamat")
         self.tabel = ttk.Treeview(self.frame_kanan, columns=kolom, show="headings", height=15)
